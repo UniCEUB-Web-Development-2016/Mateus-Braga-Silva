@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cadastro Usuario</title>
+</head>
+<body>
+<form action="controller.php" method="post">
+
+    <p><input type="text" name="primeironome" placeholder="Nome"/>
+
+    <input type="text" name="segundonome" placeholder="Sobrenome"/></p>
+
+    <p><input type="tel" name="telefone" placeholder="Telefone"/></p>
+
+    <p><input type="password" name="senha" placeholder="Senha"/></p>
+
+    <p>Aniverśario<br/>
+    <input type="date" name="data">
+    </p>
+
+   <fieldset id="sex"><legend>Sexo:</legend>
+        <input id="cMasc" type="radio" name="sexo" value="Masculino"/> <label for="cMasc">Masculino<br></label>
+        <input id="cFem" type="radio" name="sexo" value="Feminino"/> <label for="cFem">Feminino<br></label>
+   </fieldset>
+
+    <p><input type="submit" value="Abrir uma conta"></p>
+
+
+</form>
+</body>
+</html>
